@@ -1,0 +1,23 @@
+Source: nacl-sdk
+Section: devel
+Priority: extra
+Maintainer: Constantine Peresypkin <constantine@litestack.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.zerovm.org
+
+Package: nacl-sdk
+Architecture: amd64
+Depends: python (>=2.6), wget, unzip, gcc-multilib, g++-multilib, ${shlibs:Depends}, ${misc:Depends}
+Description: Technology for running native compiled code in a sandbox
+ Native client SDK can be used to compile native binaries for NaCL sandbox
+ .
+ The Native Client open-source technology is designed to run native 
+ compiled code securely inside browsers. Native Client puts 
+ web applications on the same playing field as local applications, 
+ providing the raw speed needed to compete with traditional software 
+ like 3D games, video editing, and other applications. 
+ Native Client also gives languages like C and C++ 
+ (and eventually others as well) the same level of portability 
+ and safety that JavaScript provides on the web today.
+
