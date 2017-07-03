@@ -1,3 +1,15 @@
+nacl-sdk (49.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Niv Sardi <xaiki@evilgiggle.com>  Mon, 03 Jul 2017 12:33:24 -0300
+
+nacl-sdk (37.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Niv Sardi <xaiki@evilgiggle.com>  Mon, 03 Jul 2017 12:31:02 -0300
+
 nacl-sdk (21.0) precise; urgency=low
 
   * Initial release 
